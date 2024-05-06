@@ -1,0 +1,28 @@
+{
+    "policy_hidden_sizes": [
+        256,
+        256
+    ],
+    "value_hidden_sizes": [
+        256,
+        256
+    ],
+    "q_hidden_sizes": [
+        256,
+        256
+    ],
+    "discount": 0.96,
+    "tau": 0.01,
+    "lr": 0.001,
+    "policy_lr": 0.01,
+    "batch_size": 256,
+    "n_train_steps_per_env_step": 1,
+    "sym_memory": false,
+    "max_memory_size": 1000000,
+    "n_prefill_steps": 1000,
+    "alpha": 0.2,
+    "learn_alpha": true,
+    "use_nf": true,
+    "loss_ord": 1,
+    "n_sample_actions": 10
+}

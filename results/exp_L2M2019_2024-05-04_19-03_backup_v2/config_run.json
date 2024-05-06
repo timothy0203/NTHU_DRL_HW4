@@ -1,0 +1,18 @@
+{
+    "play": true,
+    "submission": false,
+    "env": "L2M2019",
+    "alg": "sac",
+    "explore": "DisagreementExploration",
+    "seed": 1,
+    "exp_name": "exp",
+    "n_env": 12,
+    "n_total_steps": 0,
+    "max_episode_length": 1000,
+    "load_path": "./results/exp_L2M2019_2024-05-04_19-03_backup_v2/best_agent.ckpt-121000",
+    "output_dir": "./results/exp_L2M2019_2024-05-04_19-03_backup_v2",
+    "save_interval": 1000,
+    "log_interval": 1000,
+    "rank": 0,
+    "world_size": 1
+}
