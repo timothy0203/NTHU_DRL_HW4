@@ -266,6 +266,7 @@ class Agent:
             observation = self.preprocess(observation)
             action = self.agent.get_actions(observation)
             action = self.exploration.select_best_action(np.atleast_2d(observation), action)
+            action = (action + 1)/2 # TODO: 2024/05/11 debug
             # next_obs, rew, done, info = env.step(action.flatten())
             # print(f"action.shape: {action.shape}")
             # print(f"action: {action}")
